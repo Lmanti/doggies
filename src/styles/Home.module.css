@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oleo+Script+Swash+Caps&display=swap');
+
+.fondo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-left: -8px; */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    position: fixed;
+    background-image: url(../img/Dogs-landingPage.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Dancing Script', cursive;
+}
+
+.bar {
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+    color:white;
+    background-color: rgba(26, 26, 26, 0.849);
+    border: none;
+}
+
+.logocontainer {
+    display: inline-flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.form {
+    justify-self: end;
+}
+
+.button {
+    background-color: transparent;
+    color:white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+    transition: all .5s;
+}
+
+.button:hover {
+    padding: 20px 35px;
+    margin: -5px -5px;
+    background-color: rgba(26, 26, 26, 0.849);
+    color: gold;
+    border-color: gold;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+    /* margin: -8px 0 0 0; */
+    font-size: x-large;
+}
+
+.appname {
+    padding: 0;
+    margin: 0;
+}
+
+.corpus {
+    align-self:center;
+    justify-self: center;
+    margin-top: -100px;
+    margin-bottom: 450px;
+    font-size: x-large;
+    padding: 100px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer >h5 {
+    margin-bottom: 0;
+}
+
+.footer >h6 {
+    margin-top: 5px;
+}

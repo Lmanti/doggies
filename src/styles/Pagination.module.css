@@ -1,0 +1,48 @@
+.pags {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.pageNum {
+    /* border: 3px solid brown;
+    border-radius: 40%; */
+    font-size: x-large;
+    font-weight: bolder;
+    color: brown;
+}
+
+/* .button {
+    padding: 6px 10px 6px 10px;
+    background-color: transparent;
+    border: none;
+    border-radius: 3px;
+    color: brown;
+    font-size: larger;
+} */
+
+.back {
+    transform: rotate(-50deg);
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    transition: all .1s;
+}
+
+.back:hover {
+    width: 40px;
+    height: 40px;
+}
+
+.next {
+    transform: rotate(45deg);
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    transition: all .1s;
+}
+
+.next:hover {
+    width: 40px;
+    height: 40px;
+}

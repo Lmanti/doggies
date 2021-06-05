@@ -1,0 +1,118 @@
+.container {
+    /* margin-top: -8px; */
+    /* background-color: red; */
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgba(165, 42, 42, 0.918); */
+    background-color: transparent;
+    /* color: wheat; */
+    color: brown;
+    border-radius: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    font-weight: bolder;
+}
+
+.input {
+    display: flex;
+    padding: 2px;
+    font-size: larger;
+}
+
+.breed {
+    margin-left: 58px;
+    width: 178px;
+}
+
+.height {
+    width: 25px;
+    margin-left: 12px;
+    margin-right: 9px;
+}
+
+.weight {
+    margin-left: 8px;
+}
+
+.lifeSpan {
+    width: 25px;
+    margin-left: 28px;
+}
+
+.img {
+    margin-left: 48px;
+}
+
+.button {
+    padding: 5px 15px 5px 15px;
+    margin-top: 5px;
+    color: brown;
+    border: 1px solid brown;
+    font-size: larger;
+    border-radius: 3px;
+    background-color: transparent;
+    position: absolute;
+    transition: all .5s;
+}
+
+.button:hover {
+    background-color: brown;
+    color: wheat;
+    padding: 7px 17px 7px 17px;
+    margin-top: 3px;
+}
+
+.section {
+    margin-top: 10px;
+    background-color: #ffffff78;
+    border-radius: 10px;
+}
+
+.temptContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: end;
+    color: brown;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+.t {
+    display: flex;
+    align-items: center;
+}
+
+.t >label {
+    margin-right: 3px;
+}
+
+.danger {
+    border: 2px solid red;
+    color: red;
+}
+
+.error {
+    margin: 0px 0px 0px 10px;
+    color: red;
+}
+
+.p {
+    border: 1px solid wheat;
+    background-color: wheat;
+    border-radius: 10px;
+    padding: 0px 4px 0px 4px;
+}
+
+.loading {
+    align-self: center;
+    justify-self: center;
+    border-radius: 100%;
+    width: 70%;
+}
