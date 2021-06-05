@@ -10,7 +10,7 @@ export default function Home() {
                     <img className={styles.logo} src={logo} alt="" />
                     <h1 className={styles.appname} >Doggies</h1>
                 </div>
-                <form className={styles.form} action="https://doggies-app.vercel.app/dogs">
+                <form className={styles.form} action="/dogs">
                     <input className={styles.button} type="submit" value="Home" />
                 </form>
             </header>
