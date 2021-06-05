@@ -11,6 +11,7 @@ export function DogDetails({match}) {
 
     useEffect(() => {
         dispatch(getDogDetails(match.params.id))
+        // eslint-disable-next-line
     }, [])
 
     
@@ -18,9 +19,10 @@ export function DogDetails({match}) {
 
     useEffect(() => {
         if (dogDetails.id) {
-            if (dogDetails.id == match.params.id) setExiste(true)
+            if (dogDetails.id === Number(match.params.id)) setExiste(true)
             else setExiste(false)
         }
+        // eslint-disable-next-line
     }, [dogDetails])
 
     return (

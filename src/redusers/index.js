@@ -94,6 +94,7 @@ export default function rootReducer(state = inicialState, action) {
         case GET_TEMPERAMENTS:
             let t = []
             for (let i = 0; i < action.payload.length; i++) {
+                // eslint-disable-next-line
                 if (action.payload[i].temperament) action.payload[i].temperament.split(', ').map((temp, index) => {
                     if (!t.includes(temp)) t.push(temp)
                 })

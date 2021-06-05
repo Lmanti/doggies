@@ -13,9 +13,11 @@ export function SearchBar() {
     const [breed, setBreed] = useState('')
     const loading = useSelector(state => state.loading)
 
+    // eslint-disable-next-line
     useEffect(() => {
         dispatch(getDogs())
         // setIsLoading(false)
+        // eslint-disable-next-line
     }, [])
 
     //paginacion
